@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    background:#343746;
+}
+
+.container{
+    min-height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container  main{
+    color: white;
+    text-align: left;
+   
+}
+
+main h1 {
+    font-family: "Lobster Two";
+    font-size: 220px;
+    position: absolute;
+    top: 80px;
+}
+
+main p {
+    font-family:  "Advent Pro";
+    font-size: 99px;
+    background-color: #889DC3;
+    margin-bottom: 8px;
+
+    padding: 10px;
+}
+
+main h2 {
+    font-family:  "Fascinate Inline";
+    font-size: 99px;
+}
+
+@media screen and (max-width: 400px) {
+    main h1{
+        font-size: 5em;
+        top: 120px;
+        left: 70px;
+        z-index: 1000;
+        
+    }
+
+    main p {
+        text-align: center;
+        font-size: 1.5em; 
+        display: inline-block;
+        position: absolute;
+        left: 39px;
+        top: 200px;
+        z-index: 1;
+    }
+
+    main h2 {
+     
+        text-align: center;
+        font-size: 3em;
+        position: absolute;
+        bottom: 0;
+        transform: translate(-50%, -50%);
+    }
+}
