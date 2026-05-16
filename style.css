@@ -57,7 +57,7 @@ main h2 {
         font-size: 1.5em; 
         display: inline-block;
         position: absolute;
-        left: 39px;
+        left: 10px;
         top: 200px;
         z-index: 1;
     }
